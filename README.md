@@ -19,8 +19,8 @@ import matplotlib.pyplot as plt
 %matplotlib inline
 
 # Provide your location, or request from device's GPS api
-my_latitude = 1.323604823
-my_longitude = 103.8587802
+my_latitude = 1.3236
+my_longitude = 103.8587
 
 # Get current date time for Singapore 
 tz = pytz.timezone('Asia/Singapore')
