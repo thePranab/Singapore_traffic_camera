@@ -1,13 +1,13 @@
 # Singapore_traffic_camera
 Monitor traffic around you in Singapore via DATA.GOV.SG traffic camera API.
 
+```python 
 """
 Program: Singapore_traffic_camera 
 Version: 20190911 
 @author: Pranab Das (twitter: @pranab_das) 
 """
 
-```python
 import datetime
 import pytz
 import requests
