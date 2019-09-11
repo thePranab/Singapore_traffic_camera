@@ -58,6 +58,11 @@ for camera_id in np.arange(no_of_cameras):
 for camera_id in np.arange(no_of_cameras):
     if dist[camera_id] == min(dist):
         my_camera_id = camera_id
+        
+
+print("Actual location of the camera nearby you: \nLatitude =", \
+      camera_latitudes[my_camera_id], ", Longitude = ", camera_longitudes[my_camera_id])
+
 
 # Get camera image url
 my_camera_url = camera_data[my_camera_id]["image"]
@@ -78,6 +83,8 @@ plt.show()
 ```
 
     DATA.GOV.SG API System Status : healthy !
+    Actual location of the camera nearby you: 
+    Latitude = 1.323604823 , Longitude =  103.8587802
     This camera data last updated : 2019-09-11T12:05:42+08:00
 
 
