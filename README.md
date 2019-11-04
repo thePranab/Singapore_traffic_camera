@@ -1,4 +1,4 @@
-# Singapore_traffic_camera
+# Singapore traffic camera
 Monitor traffic around you in Singapore via DATA.GOV.SG traffic camera API.
 
 ```python 
